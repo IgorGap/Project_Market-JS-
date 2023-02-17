@@ -14,7 +14,4 @@
 <p>
 </p>
 <img width="1440" alt="mainPage" src="./readme-assent/3e.PNG">
-<p>
-</p>
-<img width="1440" alt="mainPage" src="./readme-assent/4e.PNG">
-<p>
+<p
