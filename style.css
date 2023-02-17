@@ -1,0 +1,202 @@
+body {
+  background-color: rgb(176, 180, 176);
+}
+.market{
+  display: flex;
+  box-sizing: border-box;
+  width: 640px;
+  height: 650px;
+  margin-top: 50px;
+  margin-left: 30px;
+  border: 3px solid rgb(23, 27, 4);
+  background-color: rgb(250, 250, 250);
+
+  border-radius: 8px;
+  overflow-x: scroll;
+  padding: 15px;
+  gap:10px;
+}
+.basket{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 15px;
+  width: 400px;
+  height: 650px;
+  position: fixed;
+  top: 50px;
+  right: 100px;
+  border: 3px solid rgb(23, 27, 4);
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 15px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+.marketCard{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  min-width: 300px;
+  height: 550px;
+  border: 2px solid green;
+  border-radius: 10px;
+  margin-top:30px;
+  padding: 10px;
+  box-sizing: border-box;  
+}
+.marketCard img{
+  width: 95%;
+}
+
+.basket_card{
+  border: 2px solid green;
+  margin: 0 auto;
+  margin-top:30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 95%;
+  box-sizing: border-box;  
+  padding: 15px;
+}
+
+.btn_price{
+  border: 2px, solid ,black;
+}
+
+.sendinfo{
+  position: absolute;
+  right: 15px;
+}
+
+.delinfo{
+  position: absolute;
+  left: 15px;
+}
+
+button {
+  background: #1b1b1b;
+  color: #fff;
+  padding: 10px 15px;
+  margin: 10px;
+  border: 0;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.btnbasket{
+  width: 394px;
+  position: fixed;
+  bottom: 20px;
+  right: 100px;
+  height: 50px;
+  border: 3px solid rgb(23, 27, 4);
+  background-color: rgb(128, 130, 133);
+  border-radius: 8px;
+  padding: 5px 0;
+}
+.btnmarket{
+  color: #ffffff;
+  width: 640px;
+  position: absolute;
+  height: 50px;
+  bottom: 20px;
+  left: 30px;
+  border: 3px solid rgb(23, 27, 4);
+  background-color: rgb(128, 130, 133);
+  border-radius: 8px;
+  padding: 5px 0;
+}
+
+.modalback{
+  display: none;
+  position: fixed;
+  background-color: rgba(14, 13, 15, 0.774);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.modalwindow{
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 500px;
+  height: 300px;
+  flex-direction: column;
+  padding: 20px;
+  gap:30px;
+  background-color: rgb(112, 150, 137);
+  border-radius: 6px;
+}
+
+.modalimage{
+  border-radius: 5px;
+  width: 430px;
+  height: 28px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+.modaltitle{
+  border-radius: 5px;
+  width: 430px;
+  height: 28px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+
+.modalsubtitle{
+  border-radius: 5px;
+  width: 430px;
+  height: 28px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.modalprice{
+  border-radius: 5px;
+  width: 430px;
+  height: 28px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+.modalbtnadd{
+  border-radius: 5px;
+  width: 130px;
+  height: 35px;
+  margin-left: 30px;
+}
+.modalbtndel{
+  margin-left: 105%;
+  margin-top: -55px;
+  width: 40px;
+  border-radius: 50px;
+}
+
+.imgsize{
+  height: 280px;
+}
+

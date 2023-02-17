@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market</title>
+  <link href="./style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="modalback" >
+  <section class="modalwindow">
+    <form id = "modalform">
+      <button type="submit" class="modalbtndel">х</button>
+      <div class="inputinfo">
+        <input class='modaltitle' placeholder="добавьте название"/>
+        <input class='modalimage' placeholder="добавьте изображение (url)"/>
+        <input class='modalsubtitle' placeholder="добавить текст"/>
+        <input class='modalprice' placeholder="добавить цену"/>
+      </div>
+      <button type="button" class="modalbtnadd">Принять</button>
+    </form>
+  </section>
+</div>
+
+<section class="market"></section>
+
+<section class="basket"></section>
+
+<div>
+  <button class="btnmarket">Добавить новый продукт</button>
+</div>
+
+<div class="btnbasket">
+  <form>
+  <button type="submit" class="sendinfo">Отправить</button>
+  <button type="submit" class="delinfo">Очистить</button>
+  </form>
+</div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
